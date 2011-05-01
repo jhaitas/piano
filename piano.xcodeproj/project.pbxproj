@@ -33,8 +33,6 @@
 		58A0E1DD136D14C600539D9D /* xml.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E1D3136D14C600539D9D /* xml.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		58A0E21B136D158C00539D9D /* ezxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E219136D158C00539D9D /* ezxml.h */; };
 		58A0E21C136D158C00539D9D /* waitress.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E21A136D158C00539D9D /* waitress.h */; };
-		58A0E242136D16D700539D9D /* libezxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A0E240136D16D700539D9D /* libezxml.a */; };
-		58A0E243136D16D700539D9D /* libwaitress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A0E241136D16D700539D9D /* libwaitress.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,8 +90,6 @@
 		58A0E219136D158C00539D9D /* ezxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ezxml.h; path = ezxml/ezxml.h; sourceTree = "<group>"; };
 		58A0E21A136D158C00539D9D /* waitress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = waitress.h; path = waitress/waitress.h; sourceTree = "<group>"; };
 		58A0E21F136D15E000539D9D /* getPianobarSources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = getPianobarSources.sh; sourceTree = "<group>"; };
-		58A0E240136D16D700539D9D /* libezxml.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libezxml.a; sourceTree = SOURCE_ROOT; };
-		58A0E241136D16D700539D9D /* libwaitress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libwaitress.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +97,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58A0E242136D16D700539D9D /* libezxml.a in Frameworks */,
-				58A0E243136D16D700539D9D /* libwaitress.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +106,7 @@
 		58A0E165136D133C00539D9D = {
 			isa = PBXGroup;
 			children = (
+				58A0E19B136D139800539D9D /* Dependencies */,
 				58A0E21E136D15E000539D9D /* Scripts */,
 				58A0E1CA136D14C600539D9D /* config.h */,
 				58A0E1CB136D14C600539D9D /* crypt_key_input.h */,
@@ -123,10 +118,7 @@
 				58A0E1D1136D14C600539D9D /* piano.h */,
 				58A0E1D2136D14C600539D9D /* xml.c */,
 				58A0E1D3136D14C600539D9D /* xml.h */,
-				58A0E19B136D139800539D9D /* Dependencies */,
 				58A0E171136D133C00539D9D /* Products */,
-				58A0E240136D16D700539D9D /* libezxml.a */,
-				58A0E241136D16D700539D9D /* libwaitress.a */,
 			);
 			sourceTree = "<group>";
 		};
