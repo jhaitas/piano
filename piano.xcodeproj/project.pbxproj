@@ -21,6 +21,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		583DC915136D1E3F004D5766 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583DC914136D1E3F004D5766 /* Cocoa.framework */; };
+		583DC91F136D1E3F004D5766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 583DC91D136D1E3F004D5766 /* InfoPlist.strings */; };
+		583DC927136D1E3F004D5766 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583DC914136D1E3F004D5766 /* Cocoa.framework */; };
+		583DC92A136D1E3F004D5766 /* piano.framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583DC912136D1E3F004D5766 /* piano.framework.framework */; };
+		583DC930136D1E3F004D5766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 583DC92E136D1E3F004D5766 /* InfoPlist.strings */; };
+		583DC933136D1E3F004D5766 /* piano_frameworkTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 583DC932136D1E3F004D5766 /* piano_frameworkTests.h */; };
+		583DC935136D1E3F004D5766 /* piano_frameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583DC934136D1E3F004D5766 /* piano_frameworkTests.m */; };
 		58A0E1D4136D14C600539D9D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E1CA136D14C600539D9D /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		58A0E1D5136D14C600539D9D /* crypt_key_input.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E1CB136D14C600539D9D /* crypt_key_input.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		58A0E1D6136D14C600539D9D /* crypt_key_output.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E1CC136D14C600539D9D /* crypt_key_output.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -36,6 +43,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		583DC928136D1E3F004D5766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58A0E167136D133C00539D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 583DC911136D1E3F004D5766;
+			remoteInfo = piano.framework;
+		};
 		58A0E20C136D154B00539D9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 58A0E208136D154B00539D9D /* waitress.xcodeproj */;
@@ -74,6 +88,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		583DC912136D1E3F004D5766 /* piano.framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = piano.framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583DC914136D1E3F004D5766 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		583DC917136D1E3F004D5766 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		583DC918136D1E3F004D5766 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		583DC919136D1E3F004D5766 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		583DC91C136D1E3F004D5766 /* piano.framework-Info.plist */ = {isa = PBXFileReference; path = "piano.framework-Info.plist"; sourceTree = "<group>"; };
+		583DC91E136D1E3F004D5766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		583DC920136D1E3F004D5766 /* piano.framework-Prefix.pch */ = {isa = PBXFileReference; path = "piano.framework-Prefix.pch"; sourceTree = "<group>"; };
+		583DC926136D1E3F004D5766 /* piano.frameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piano.frameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		583DC92D136D1E3F004D5766 /* piano.frameworkTests-Info.plist */ = {isa = PBXFileReference; path = "piano.frameworkTests-Info.plist"; sourceTree = "<group>"; };
+		583DC92F136D1E3F004D5766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		583DC931136D1E3F004D5766 /* piano.frameworkTests-Prefix.pch */ = {isa = PBXFileReference; path = "piano.frameworkTests-Prefix.pch"; sourceTree = "<group>"; };
+		583DC932136D1E3F004D5766 /* piano_frameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = piano_frameworkTests.h; sourceTree = "<group>"; };
+		583DC934136D1E3F004D5766 /* piano_frameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = piano_frameworkTests.m; sourceTree = "<group>"; };
 		58A0E170136D133C00539D9D /* libpiano.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpiano.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A0E1CA136D14C600539D9D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		58A0E1CB136D14C600539D9D /* crypt_key_input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_key_input.h; sourceTree = "<group>"; };
@@ -93,6 +121,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		583DC90E136D1E3F004D5766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DC915136D1E3F004D5766 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DC922136D1E3F004D5766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DC927136D1E3F004D5766 /* Cocoa.framework in Frameworks */,
+				583DC92A136D1E3F004D5766 /* piano.framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58A0E16D136D133C00539D9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +148,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		583DC913136D1E3F004D5766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				583DC914136D1E3F004D5766 /* Cocoa.framework */,
+				583DC916136D1E3F004D5766 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		583DC916136D1E3F004D5766 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				583DC917136D1E3F004D5766 /* AppKit.framework */,
+				583DC918136D1E3F004D5766 /* CoreData.framework */,
+				583DC919136D1E3F004D5766 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		583DC91A136D1E3F004D5766 /* piano.framework */ = {
+			isa = PBXGroup;
+			children = (
+				583DC91B136D1E3F004D5766 /* Supporting Files */,
+			);
+			path = piano.framework;
+			sourceTree = "<group>";
+		};
+		583DC91B136D1E3F004D5766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				583DC91C136D1E3F004D5766 /* piano.framework-Info.plist */,
+				583DC91D136D1E3F004D5766 /* InfoPlist.strings */,
+				583DC920136D1E3F004D5766 /* piano.framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		583DC92B136D1E3F004D5766 /* piano.frameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				583DC932136D1E3F004D5766 /* piano_frameworkTests.h */,
+				583DC934136D1E3F004D5766 /* piano_frameworkTests.m */,
+				583DC92C136D1E3F004D5766 /* Supporting Files */,
+			);
+			path = piano.frameworkTests;
+			sourceTree = "<group>";
+		};
+		583DC92C136D1E3F004D5766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				583DC92D136D1E3F004D5766 /* piano.frameworkTests-Info.plist */,
+				583DC92E136D1E3F004D5766 /* InfoPlist.strings */,
+				583DC931136D1E3F004D5766 /* piano.frameworkTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		58A0E165136D133C00539D9D = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +220,9 @@
 				58A0E1D1136D14C600539D9D /* piano.h */,
 				58A0E1D2136D14C600539D9D /* xml.c */,
 				58A0E1D3136D14C600539D9D /* xml.h */,
+				583DC91A136D1E3F004D5766 /* piano.framework */,
+				583DC92B136D1E3F004D5766 /* piano.frameworkTests */,
+				583DC913136D1E3F004D5766 /* Frameworks */,
 				58A0E171136D133C00539D9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +231,8 @@
 			isa = PBXGroup;
 			children = (
 				58A0E170136D133C00539D9D /* libpiano.a */,
+				583DC912136D1E3F004D5766 /* piano.framework.framework */,
+				583DC926136D1E3F004D5766 /* piano.frameworkTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +275,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		583DC90F136D1E3F004D5766 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58A0E16E136D133C00539D9D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,6 +301,43 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		583DC911136D1E3F004D5766 /* piano.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583DC936136D1E3F004D5766 /* Build configuration list for PBXNativeTarget "piano.framework" */;
+			buildPhases = (
+				583DC90D136D1E3F004D5766 /* Sources */,
+				583DC90E136D1E3F004D5766 /* Frameworks */,
+				583DC90F136D1E3F004D5766 /* Headers */,
+				583DC910136D1E3F004D5766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piano.framework;
+			productName = piano.framework;
+			productReference = 583DC912136D1E3F004D5766 /* piano.framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		583DC925136D1E3F004D5766 /* piano.frameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583DC939136D1E3F004D5766 /* Build configuration list for PBXNativeTarget "piano.frameworkTests" */;
+			buildPhases = (
+				583DC921136D1E3F004D5766 /* Sources */,
+				583DC922136D1E3F004D5766 /* Frameworks */,
+				583DC923136D1E3F004D5766 /* Resources */,
+				583DC924136D1E3F004D5766 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				583DC929136D1E3F004D5766 /* PBXTargetDependency */,
+			);
+			name = piano.frameworkTests;
+			productName = piano.frameworkTests;
+			productReference = 583DC926136D1E3F004D5766 /* piano.frameworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		58A0E16F136D133C00539D9D /* piano */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58A0E174136D133C00539D9D /* Build configuration list for PBXNativeTarget "piano" */;
@@ -239,6 +390,8 @@
 			targets = (
 				58A0E16F136D133C00539D9D /* piano */,
 				58A0E244136D174A00539D9D /* Get Pianobar Sources */,
+				583DC911136D1E3F004D5766 /* piano.framework */,
+				583DC925136D1E3F004D5766 /* piano.frameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +413,40 @@
 		};
 /* End PBXReferenceProxy section */
 
+/* Begin PBXResourcesBuildPhase section */
+		583DC910136D1E3F004D5766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DC91F136D1E3F004D5766 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DC923136D1E3F004D5766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DC930136D1E3F004D5766 /* InfoPlist.strings in Resources */,
+				583DC933136D1E3F004D5766 /* piano_frameworkTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
+		583DC924136D1E3F004D5766 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		58A0E248136D175300539D9D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +463,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		583DC90D136D1E3F004D5766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DC921136D1E3F004D5766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DC935136D1E3F004D5766 /* piano_frameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58A0E16C136D133C00539D9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +491,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		583DC929136D1E3F004D5766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 583DC911136D1E3F004D5766 /* piano.framework */;
+			targetProxy = 583DC928136D1E3F004D5766 /* PBXContainerItemProxy */;
+		};
 		58A0E23D136D16CE00539D9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ezxml;
@@ -307,7 +513,102 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		583DC91D136D1E3F004D5766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				583DC91E136D1E3F004D5766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		583DC92E136D1E3F004D5766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				583DC92F136D1E3F004D5766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		583DC937136D1E3F004D5766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piano.framework/piano.framework-Prefix.pch";
+				INFOPLIST_FILE = "piano.framework/piano.framework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		583DC938136D1E3F004D5766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piano.framework/piano.framework-Prefix.pch";
+				INFOPLIST_FILE = "piano.framework/piano.framework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		583DC93A136D1E3F004D5766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piano.frameworkTests/piano.frameworkTests-Prefix.pch";
+				INFOPLIST_FILE = "piano.frameworkTests/piano.frameworkTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		583DC93B136D1E3F004D5766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piano.frameworkTests/piano.frameworkTests-Prefix.pch";
+				INFOPLIST_FILE = "piano.frameworkTests/piano.frameworkTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		58A0E172136D133C00539D9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -389,6 +690,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		583DC936136D1E3F004D5766 /* Build configuration list for PBXNativeTarget "piano.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583DC937136D1E3F004D5766 /* Debug */,
+				583DC938136D1E3F004D5766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		583DC939136D1E3F004D5766 /* Build configuration list for PBXNativeTarget "piano.frameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583DC93A136D1E3F004D5766 /* Debug */,
+				583DC93B136D1E3F004D5766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		58A0E16A136D133C00539D9D /* Build configuration list for PBXProject "piano" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
