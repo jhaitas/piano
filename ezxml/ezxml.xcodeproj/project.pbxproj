@@ -6,8 +6,16 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		58A0E211136D156300539D9D /* ezxml.c in Sources */ = {isa = PBXBuildFile; fileRef = 58A0E20F136D156300539D9D /* ezxml.c */; };
+		58A0E212136D156300539D9D /* ezxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E210136D156300539D9D /* ezxml.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		58A0E1E9136D150800539D9D /* libezxml.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libezxml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A0E20E136D156300539D9D /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		58A0E20F136D156300539D9D /* ezxml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ezxml.c; sourceTree = "<group>"; };
+		58A0E210136D156300539D9D /* ezxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ezxml.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +32,9 @@
 		58A0E1DE136D150800539D9D = {
 			isa = PBXGroup;
 			children = (
+				58A0E20E136D156300539D9D /* COPYING */,
+				58A0E20F136D156300539D9D /* ezxml.c */,
+				58A0E210136D156300539D9D /* ezxml.h */,
 				58A0E1EA136D150800539D9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A0E212136D156300539D9D /* ezxml.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +108,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A0E211136D156300539D9D /* ezxml.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,8 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		58A0E205136D154400539D9D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E202136D154400539D9D /* config.h */; };
+		58A0E206136D154400539D9D /* waitress.c in Sources */ = {isa = PBXBuildFile; fileRef = 58A0E203136D154400539D9D /* waitress.c */; };
+		58A0E207136D154400539D9D /* waitress.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0E204136D154400539D9D /* waitress.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		58A0E1FB136D152200539D9D /* libwaitress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwaitress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A0E202136D154400539D9D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		58A0E203136D154400539D9D /* waitress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = waitress.c; sourceTree = "<group>"; };
+		58A0E204136D154400539D9D /* waitress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waitress.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +33,9 @@
 		58A0E1F0136D152200539D9D = {
 			isa = PBXGroup;
 			children = (
+				58A0E202136D154400539D9D /* config.h */,
+				58A0E203136D154400539D9D /* waitress.c */,
+				58A0E204136D154400539D9D /* waitress.h */,
 				58A0E1FC136D152200539D9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +55,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A0E205136D154400539D9D /* config.h in Headers */,
+				58A0E207136D154400539D9D /* waitress.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +110,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A0E206136D154400539D9D /* waitress.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
